@@ -3,7 +3,7 @@
 ## Description
 Welcome to the **Milestone Exam - 1st** repository!
 
-It is repository containing 5 projects using HTML and CSS as a part of FSWD 2.0 Milestone exam(Week -12).
+It is a repository containing 5 projects using HTML and CSS/Tailwind CSS as a part of FSWD 2.0 Milestone exam(Week -12).
 
 ## Table of Contents
 
