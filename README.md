@@ -1,10 +1,9 @@
-
-# E Guru Website
+# Milestone Exam
 
 ## Description
 Welcome to the **Milestone Exam - 1st** repository!
 
-It is a simple webpage of E Guru (Project 1) Website using HTML and CSS as a part of FSWD 2.0 Milestone exam.
+It is repository containing 5 projects using HTML and CSS as a part of FSWD 2.0 Milestone exam(Week -12).
 
 ## Table of Contents
 
@@ -18,7 +17,8 @@ It is a simple webpage of E Guru (Project 1) Website using HTML and CSS as a par
 
 ## Technologies Used:
 - HTML
-- CSS
+- CSS (in 1st and 2nd project)
+- Tailwind CSS (in project 3rd, 4th and 5th)
 
 ## Installation
 1. Fork this repository
@@ -44,5 +44,3 @@ We welcome any and all contributions! Here are some ways you can get started:
 ## License
 
  [MIT License](LICENSE)
-
-
