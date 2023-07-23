@@ -1,0 +1,568 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:
+     'Roboto', sans-serif;
+}
+
+/* BACKGROUND */
+.HeaderSection{
+    background-image: url(./assets/background.png);
+    width: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* NAVBAR */
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    padding: 0px 13%;   
+}
+.NavbarLeft{
+    display: flex;
+}
+.BrandName>p{
+    font-size: 25px;
+    font-weight: 800;
+    padding-right: 2rem;
+    color: white;
+}
+.NavbarOptions> ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 4rem;
+}
+.NavbarOptions> ul> li{
+    list-style-type: none;
+    
+}
+.NavbarOptions> ul> li> a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: white;
+}
+.NavbarOptions> ul> li> a:hover{
+    color: #0091ff;
+    
+}
+.NavbarButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    background-color: #0091ff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px 1px #0091ff;
+    
+}
+.button{
+    background-color: #0091ff;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    padding-right: 3px;
+}
+.NavbarButton>i{
+    color: white;
+    font-size: 12px;
+    margin-left: 0.8rem;
+}
+/* NAVBAR ENDS  */
+.HeaderLeftContent{
+    width: 350px;
+}
+.HeaderLeftContent>h1{
+    color: white;
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 2.8rem;
+}
+.HeaderLeftContent>p{
+    color: white;
+    margin-bottom: 2.8rem;
+}
+.HeaderSectionContentButtons{
+    display: flex;
+}
+.HeaderSectionContentButtons>button,
+.Btn2Border>button
+{   padding: 15px 25px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+.button-1st:hover{
+    background-color: #007ad7;
+    /* border: none!important; */
+}
+.button-2nd{
+    border-radius: 30px;
+    background-color: transparent;
+}
+.button-2nd:hover{
+    background-color: #007ad7;
+}
+.Btn2Border>button{
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+
+
+
+
+.HeaderSectionMain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 105vh;
+    
+}
+.HeaderRightForm{
+    background-color: #fff;
+    padding: 1.9rem;
+    width: 300px;
+    border-radius: 5px;
+}
+.HeaderRightForm>h1{
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
+.Box>input, 
+.Box>select{
+    width: 100%;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 12px 5px ;
+    margin-bottom: 15px;
+    font-size: 13px;
+    box-shadow: 1px 1px #c2c1c1;
+}
+.Box>input:focus{
+    color: black;
+    box-shadow: 2px 2px rgb(194, 193, 193);
+}
+.Box>p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.BookAppoinmentBtn{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 13px 5px ;
+    margin-bottom: 15px;
+    font-size: 16px;
+    box-shadow: 1px 1px #0091ff;
+    color: white;
+    background-color: #0091ff;
+    margin-top: 2rem;
+}
+.BookAppoinmentBtn:hover{
+    background-color: #007ad7;
+}
+
+/* SECTION1-LEADING MADICINE BOX */
+.LeadingMedicineBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.WrappingBox_S1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    text-align: center;
+    height:15rem;
+}
+.WrappingBox_S1>h1{
+    font-weight: 800;
+    font-size: xx-large;
+    margin-bottom: 1rem;
+}
+.WrappingBox_S1>p{
+    color: gray;
+    font-size: 14px;
+}
+/* CARDS SECTION  */
+.WrappingS2-Cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 6rem;
+}
+.Card1{
+    width: 250px;
+    border: #007ad7 1px solid;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+}
+.TopC1{
+    display: flex;
+    align-items: center;
+    background-color: #0091ff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 1.7rem 2rem;
+}
+.TopC1>i{
+    background-color: #fff;
+    color: #007ad7;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.TopC1>p{
+    color: white;
+    padding-left: 0.5rem;
+    font-size: 14px;
+    cursor: pointer;
+}
+.BodyC1{
+    margin-top: 5px;
+}
+.BodyC1>ul{
+    padding: 0.8rem 1rem 6px 2.3rem;
+}
+.BodyC1>ul>li{
+    list-style-type: none;
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 8px;   
+}
+.BodyC1>p{
+    color: #007ad7;
+    font-size: 13px;
+    margin:0px  2.3rem 1rem;
+    cursor: pointer;
+}
+
+/* SECTION2-REVIEW BOX */
+.ReviewCardsBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.8rem;
+    margin-bottom: 7rem;
+}
+.ReviewBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+/* REVIEW CARD 1 */
+.ReviewCard{
+    width: 280px;
+    border: 1px solid #dfdfdf;
+    box-shadow: 1px 1px 1px 1px #e5e3e3;
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+.ReviewCard1Stars{
+    color: #ffcc00;
+    margin-bottom: 0.8rem;
+}
+.ReviewCard>p{
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 0.8rem; 
+}
+
+/* SECTION3-FAQ BOX */
+.FAQbox{
+    padding: 0px 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* GRID BOX  */
+.GridBoxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem 6rem;
+    margin-bottom: 6rem;
+}
+/* BOXES  */
+.GBox1{
+    display: flex;
+    width: 270px;
+    padding: 1rem;
+}
+.GBox1>i{
+    color: #007ad7;
+    margin-right: 0.8rem;
+}
+.GridBoxContent>h2{
+    font-size: 17px;
+    margin-bottom: 0.5rem;
+}
+.GridBoxContent>p{
+    font-size: 15px;
+    color: gray;
+}
+
+/* SECTION4-PRICING */
+.PricingCards{
+    display: flex;
+    align-items: end;
+    margin-bottom: 6rem;
+}
+.PricingBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+/* PRICING CARDS */
+/* CARD1  */
+.FreeCard{
+    border: #007ad7 1px solid;
+    width: 310px;
+    padding: 1.8rem 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.TopPart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.TopPart>h1{
+    font-size: 21px;
+    margin-bottom: 2rem;
+}
+.TopPart>p{
+    font-size: 16px;
+    color: #525252;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.2rem;
+}
+/* PRICE BOX */
+.CardPrice1{
+    display: flex;
+    color: #007ad7;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2.2rem;
+}
+.CardPrice1>p{
+    font-size: 2rem;
+    font-weight: 900;
+}
+.CardPrice1_2nd>h2{
+    font-size: 13px;
+    font-weight: 900;
+    margin-bottom: 0.3rem;
+}
+.CardPrice1_2nd>p{
+    font-size: 11px;
+    color: #1499ff;
+    font-weight: 400;
+}
+/* OFFERS */
+.OffersBox_T1,
+.OffersBox_T2{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin-bottom: 1rem;
+}
+.Checkmark_T1{
+    background-color: rgb(0, 163, 0);
+    padding: 2px 6px;
+    border-radius: 50%;
+    color: white;
+}
+.OffersBox_T1>p,
+.OffersBox_T2>p{
+    font-size: 14px;
+}
+
+.Checkmark_T2{
+    background-color: #a5a3a3;
+    padding: 2px 6px;
+    border-radius: 50%;
+    color: white;
+}
+.Offers{
+    margin-bottom: 2.5rem;
+}
+/*BUTTON*/
+.CardButton{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 13px 5px ;
+    margin-bottom: 15px;
+    font-size: 16px;
+    box-shadow: 1px 1px #0091ff;
+    color: white;
+    background-color: #0091ff;
+    
+}
+.CardButton:hover{
+    background-color: #007ad7;
+}
+
+/* CARD2  */
+.Paidcard2{
+    border: #007ad7 1px solid;
+    width: 310px;
+    padding: 2.8rem 2rem;
+    background-color: #191937;
+    border-radius: 10px;
+}
+.TopPart_Card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.TopPart_Card2>h1{
+    font-size: 21px;
+    margin-bottom: 2rem;
+    color: white;
+}
+.TopPart_Card2>p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.2rem;
+}
+
+
+/* SECTION5-GET IN TOUCH */
+.ContactBox{
+    padding: 6rem 13vw;
+    background-color: #191937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.GetInTouchBox{
+    width: 400px;
+}
+.GetInTouchBox>h1{
+    color: white;
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+.GetInTouchBox>p{
+    color: white;
+    font-size: 14px;
+}
+.EmailBox{
+    display: flex;
+}
+.EmailBox>input{
+    outline: none;
+    border: none;
+    padding: 1rem 1rem;
+    font-size:14px;
+    font-weight: 600;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 300px;
+}
+.EmailBox>p{
+    background-color: #0091ff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 14px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.EmailBox>p:hover{
+    background-color: #007ad7;
+}
+
+
+/* FOOTER  */
+.FooterBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 6rem 0px;
+    padding: 0px 13vw;
+}
+.FooterBox_1{
+    width: 200px;
+    padding-right: 1rem;
+}
+.FooterBox_1>h1{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 1.8rem;
+}
+.FooterBox_2>h1{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 1.2rem;
+}
+.FooterBox_1>p{
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 1.2rem;
+}
+.SocialHandles>i{
+    color: #0091ff;
+    font-size: 1.5rem;
+    padding:0rem 0.4rem;
+    cursor: pointer;
+}
+/* Box2+3+4  */
+.FooterBox_2>p{
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 0.8rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.FooterBox_2>p:hover{
+    color: #007ad7;
+}
+/* FooterBottom */
+.FooterBottom{
+    background-color: #dfdfdf;
+}
+.FooterBottom>p{
+    font-size: 14px;
+    color: gray;
+    padding: 1.6rem;
+    text-align: center;
+}

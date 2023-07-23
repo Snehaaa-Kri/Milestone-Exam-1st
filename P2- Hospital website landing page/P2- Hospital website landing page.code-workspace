@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../P1 E-Guru"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "P2- Hospital website landing page"
+	}
+}
